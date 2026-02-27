@@ -31,10 +31,6 @@ The **Multi-Cloud Infrastructure Cloner** is a production-grade IaC system desig
 
 ![Technical Architecture Diagram](docs/assets/architecture_diagram.png)
 
-### Portfolio Illustration
-
-![Infrastructure Illustration](docs/assets/portfolio_illustration.png)
-
 ### System Flow (Mermaid)
 
 ```mermaid
@@ -95,6 +91,9 @@ terraform apply -var="target_provider=hetzner" -var="ssh_public_key=$(cat ~/.ssh
 - **Runtime**: Docker containers run with resource limits and restart policies.
 - **Secrets**: Encrypted variable injection via Terraform environment variables.
 
+> [!IMPORTANT]
+> For a deep dive into our hardening process and zero-leak strategy, see the [Full Security Architecture](docs/SECURITY.md).
+
 ## 💾 Backup & Restore
 
 ### Capture
@@ -115,14 +114,6 @@ Run on the newly provisioned server:
 
 ---
 
-## ✨ AI Generation Prompt
-
-To regenerate the infographic used in this README, use the following prompt in Gemini or Midjourney:
-
-> "A high-end, professional DevOps infographic for a multi-provider infrastructure platform. Dark-themed with neon cyan and purple accents. Central hub representing Terraform branching to AWS, Hetzner, and Contabo. Show flow: Plan -> Provision -> Harden -> Restore. Clean vector flat design, portfolio quality."
-
----
-
 ### 🏅 Portfolio Piece
 
-Created by Anti-Gravity Engine for [abaasi256](https://github.com/abaasi256)
+By [abaasi256](https://github.com/abaasi256)
