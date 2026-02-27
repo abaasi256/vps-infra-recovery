@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+_override.tf
+_override.tf.json
+.terraformrc
+terraform.rc
+
+# Secrets
+.env
+*.pem
+*.key
+secrets.tfvars
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+backup/data/

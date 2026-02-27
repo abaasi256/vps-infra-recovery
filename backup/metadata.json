@@ -1,0 +1,7 @@
+{
+  "project": "vps-infra-recovery",
+  "version": "1.0.0",
+  "description": "State metadata for automatic infrastructure restoration",
+  "provider_compatibility": ["aws", "hetzner", "contabo"],
+  "last_capture": null
+}
